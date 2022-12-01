@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Tailwind CSS</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <!-- Header Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-primary text-lg block py-6">MUHAMAD AGUS</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute max-w-[250px] w-full py-5 bg-white shadow-lg rounded-lg right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark group-hover:text-primary py-2 mx-10 flex">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-dark group-hover:text-primary py-2 mx-10 flex">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio" class="text-base text-dark group-hover:text-primary py-2 mx-10 flex">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#clients" class="text-base text-dark group-hover:text-primary py-2 mx-10 flex">Clients</a>
+                            </li>
+                            <li class="group">
+                                <a href="#blog" class="text-base text-dark group-hover:text-primary py-2 mx-10 flex">Blog</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-dark group-hover:text-primary py-2 mx-10 flex">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base text-primary lg:text-xl">Hallo Semua 👋, saya <span class="block text-dark font-bold text-3xl mt-1">MUHAMMAD AGUS</span></h1>
+                    <h2 class="font-medium text-lg text-slate-500 mb-5">I'am Student at <span class="font-semibold text-dark">Nusa Putra University</span></h2>
+                    <p class="font-medium text-lg text-slate-400 mb-10 leading-relaxed">Belajar Web Programing itu mudah dan menyenangkan Mhehehehe</p>
+                    
+                    <a href="#about" class="text-base font-semibold bg-primary py-3 px-8 rounded-full text-white hover:shadow-lg hover:opacity-80 transition-all duration-300 ease-in-out">Hubungi Saya</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="mt-10 relative lg:mt-9 lg:right-0">
+                        <img src="public/img/ME.png" alt="MUHAMMAD AGUS" class="max-w-full mx-auto">
+                        <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2">
+                            <svg width="456" height="547" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#14b8a6" d="M38.6,-72.1C46.9,-62,48.6,-45.5,53.9,-32.4C59.1,-19.4,67.9,-9.7,69.1,0.7C70.3,11,63.8,22.1,55.4,29.7C47,37.3,36.7,41.4,27.1,45.6C17.5,49.9,8.8,54.2,-1.8,57.4C-12.5,60.6,-24.9,62.7,-32.2,57.1C-39.6,51.6,-41.7,38.5,-46.8,27.7C-51.9,16.9,-59.8,8.5,-60.2,-0.2C-60.5,-8.9,-53.3,-17.7,-47.1,-26.6C-40.9,-35.4,-35.8,-44.3,-28.1,-54.8C-20.4,-65.4,-10.2,-77.6,2.4,-81.9C15.1,-86.1,30.2,-82.3,38.6,-72.1Z" transform="translate(100 100)" />
+                              </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h2 class="font-bold uppercase text-primary text-xl mb-2">tentang saya</h2>
+                    <p class="text-slate-400 max-w-lg">Hallo semuanya, perkenalkan nama saya MUHAMMAD AGUS, saya biasa dipanggil Agus. saya adalah Mahasiswa Aktif Universitas Nusa Putra Sukabumi. Di Nusa Putra Sukabumi saya mengambil jurusan Teknik Informatika.</p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <h2 class="font-semibold text-lg capitalize text-primary mb-2">Mari berteman</h2>
+                    <p class="text-slate-400 max-w-lg">Saya mempunyai beberapa akun Media Sosial, apabila ingin mengenal saya lebih lanjut, silahkan kunjungi akun Media Sosial saya dibawah ini 😊</p>
+                    <div class="sosial mt-7">
+                        <ul class="flex gap-3">
+                            <!-- Start whatsapp -->
+                            <li class="w-9 h-9 border-2 border-slate-400 rounded-full p-1 flex justify-center self-center hover:border-primary hover:bg-primary hover:text-white"><a href="https://wa.me/+6281220107708" target="_blank" class="w-9 h-9 flex justify-center items-center self-center"><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a></li>
+                            <!-- End Whatsapp -->
+                            <!-- Start Facebook -->
+                            <li class="w-9 h-9 border-2 border-slate-400 rounded-full p-1 flex justify-center self-center hover:border-primary hover:bg-primary hover:text-white">
+                                <a href="https://web.facebook.com/profile.php?id=100046189365713" target="_blank" class="w-9 h-9 flex justify-center items-center self-center">
+                                    <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                                </a>
+                            </li>
+                            <!-- End Facebook -->
+                            <!-- Start Instagram -->
+                            <li class="w-9 h-9 border-2 border-slate-400 rounded-full p-1 flex justify-center self-center hover:border-primary hover:bg-primary hover:text-white">
+                                <a href="https://www.instagram.com/__muhammadagus/?hl=id" target="_blank" class="w-9 h-9 flex justify-center items-center self-center">
+                                    <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                                </a>
+                            </li>
+                            <!-- End Instagram -->
+                            <!-- Start Gmail -->
+                            <li class="w-9 h-9 border-2 border-slate-400 rounded-full p-1 flex justify-center self-center hover:border-primary hover:bg-primary hover:text-white">
+                                <a href="mailto:muhammadagus070800@gmail.com" target="_blank" class="w-9 h-9 flex justify-center items-center self-center">
+                                    <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Gmail</title><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="pt-36 pb-16 mt-12 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4">Project Terbaru</h2>
+                    <p class="font-medium text-base text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dignissimos iste necessitatibus commodi! Commodi harum volupt ate voluptatibus, deleniti unde eius?</p>
+                </div>
+            </div>
+            <!-- project -->
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <!-- Project 1 -->
+                <div class="mb-12 p-4 md:lg:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <a href="https://layoutagus.netlify.app/" target="_blank">
+                            <img src="public/img/bootcamp.png" alt="bootcamp" width="full">
+                        </a>
+                    </div>
+                    <h3 class="font-semibold text-dark text-xl mt-4 mb-3">Bootcamp TI20C <span class="text-primary">MUHAMMAD AGUS</span></h3>
+                    <p class="font-medium text-base text-slate-400">Ini adalah Tugas pertama dari mata Kuliah Pengembangan Aplikasi Berbasis Web.</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="mb-12 p-4 md:lg:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <a href="https://uts-web-muhammadagus.netlify.app/" target="_blank">
+                            <img src="public/img/naik-kapal.png" alt="bootcamp" width="full">
+                        </a>
+                    </div>
+                    <h3 class="font-semibold text-dark text-xl mt-4 mb-3">Naik.kapal</h3>
+                    <p class="font-medium text-base text-slate-400">Pemesanan Tiket Berbasis web, dikembangkan untuk memenuhi tugas kuliah.</p>
+                </div>
+                <!-- Project 3 -->
+                <div class="mb-12 p-4 md:lg:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <a href="https://tugas-sesi-5-tailwindcss-muhammadagus.netlify.app/" target="_blank">
+                            <img src="public/img/mangkoding.png" alt="bootcamp" width="full">
+                        </a>
+                    </div>
+                    <h3 class="font-semibold text-dark text-xl mt-4 mb-3">Mangkoding</h3>
+                    <p class="font-medium text-base text-slate-400">Mangkoding adalah sebuah perusahaan StartUp yang berada di daerah cibadak kabupaten Sukabumi.</p>
+                </div>
+                <!-- Project 4 -->
+                <div class="mb-12 p-4 md:lg:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <a href="https://login-agus.netlify.app/" target="_blank">
+                            <img src="public/img/fb.png" alt="bootcamp" width="full">
+                        </a>
+                    </div>
+                    <h3 class="font-semibold text-dark text-xl mt-4 mb-3">Form login Facebook</h3>
+                    <p class="font-medium text-base text-slate-400">Latihan membuat form login.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Client Section Start -->
+    <section id="clients" class="pt-36 pb-32 bg-slate-600">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Client</h4>
+                    <h2 class="font-bold text-white text-xl mb-4 md:text-2xl">Yang Pernah Bekerja Sama</h2>
+                    <p class="font-medium text-base text-slate-400 md:text-lg">Berikut ini adalah Platform pembelajaran Web Programing saya yang saya gunakan</p>
+                </div>
+            </div>
+
+            <div class="w-full px-4">
+                <div class="flex flex-wrap justify-center items-center">
+                    <!-- Google Start -->
+                    <a href="https://www.google.com/" target="_blank" class="max-w-[120px] mx-4 py-4 md:mx-6 lg:mx-8 grayscale hover:grayscale-0 transition-all duration-500 hover:scale-105 opacity-60 hover:opacity-100">
+                        <img src="public/client/Google.svg" alt="Google">
+                    </a>
+                    <!-- Google End -->
+                    <!-- Youtube Start -->
+                    <a href="https://www.youtube.com/" target="_blank" class="max-w-[120px] mx-4 py-4 md:mx-6 lg:mx-8 grayscale hover:grayscale-0 transition-all duration-500 hover:scale-105 opacity-60 hover:opacity-100">
+                        <img src="public/client/YouTube.svg" alt="Youtube">
+                    </a>
+                    <!-- Youtube End -->
+                    <!-- Mangkoding Start -->
+                    <a href="https://mangcoding.com/" target="_blank" class="max-w-[120px] mx-4 py-4 md:mx-6 lg:mx-8 grayscale hover:grayscale-0 transition-all duration-500 hover:scale-105 opacity-60 hover:opacity-100">
+                        <img src="public/img/Logo.png" alt="Mangkoding">
+                    </a>
+                    <!-- Mangkoding End -->
+                    <!-- Meta Start -->
+                    <a href="https://web.facebook.com/MetaIndonesia/?_rdc=1&_rdr" target="_blank" class="max-w-[120px] mx-4 py-4 md:mx-6 lg:mx-8 grayscale hover:grayscale-0 transition-all duration-500 hover:scale-105 opacity-60 hover:opacity-100">
+                        <img src="public/client/meta.svg" alt="Meta">
+                    </a>
+                    <!-- Meta End -->
+                    <!-- Telkomsel Start -->
+                    <a href="https://www.telkomsel.com/" target="_blank" class="max-w-[120px] mx-4 py-4 md:mx-6 lg:mx-8 grayscale hover:grayscale-0 transition-all duration-500 hover:scale-105 opacity-60 hover:opacity-100">
+                        <img src="public/client/tsel.svg" alt="Telkomsel">
+                    </a>
+                    <!-- Telkomsel End -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Client Section End -->
+
+    <!-- Blog Section Start -->
+    <section id="blog" class="pt-36 pb-32 bg-slate-100">
+    <div class="container">
+        <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4">Tulisan Terkini</h2>
+                    <p class="font-medium text-base text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deleniti laboriosam libero voluptas fuga non.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap justify-center box-border">
+                <!-- card-1 -->
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3 box-border">
+                    <div class="bg-white rounded-xl shadow-lg mb-10 overflow-hidden">
+                        <img src="public/img/1.jpg" class="w-full h-60 rounded-xl" alt="">
+                        <div class="my-3 py-2 px-5">
+                            <h3 class="py-3">
+                                <a href="#" class="block text-xl font-semibold text-dark hover:text-primary truncate capitalize">cara belajar web programming otodidak</a>
+                            </h3>
+                            <p class="text-slate-400 text-base mb-5">Belajar web Programing sangat menyenangkan, jika kita suka belajar web</p>
+                            <a href="#" class="py-2 px-4 rounded-lg text-white bg-primary hover:opacity-80">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3 box-border">
+                    <div class="bg-white rounded-xl shadow-lg mb-10 overflow-hidden">
+                        <img src="public/img/2.jpg" class="w-full h-60 rounded-xl" alt="">
+                        <div class="my-3 py-2 px-5">
+                            <h3 class="py-3">
+                                <a href="#" class="block text-xl font-semibold text-dark hover:text-primary truncate capitalize">roadmap belajar web programming</a>
+                            </h3>
+                            <p class="text-slate-400 text-base mb-5">ada banyak sumber untuk belajar web. salah satunya adalah <a href="roadmap.sh" target="_blank" class="font-bold text-dark">roadmap.sh</a></p>
+                            <a href="#" class="py-2 px-4 rounded-lg text-white bg-primary hover:opacity-80">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3 box-border">
+                    <div class="bg-white rounded-xl shadow-lg mb-10 overflow-hidden">
+                        <img src="public/img/3.jpg" class="w-full h-60 rounded-xl" alt="">
+                        <div class="my-3 py-2 px-5">
+                            <h3 class="py-3">
+                                <a href="#" class="block text-xl font-semibold text-dark hover:text-primary truncate capitalize">macam-macam pekerjaan di bidang IT</a>
+                            </h3>
+                            <p class="text-slate-400 text-base mb-5">Banyak sekali  pekerjaan di jaman sekarang, apalagi di jaman Teknologi seperti saat ini.</p>
+                            <a href="#" class="py-2 px-4 rounded-lg text-white bg-primary hover:opacity-80">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-36 pb-32">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4">Hubungi Saya</h2>
+                    <p class="font-medium text-base text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, placeat!</p>
+                </div>
+            </div>
+            
+            <form action="">
+                <!-- class name Start -->
+                <div class="max-w-xl mx-auto px-4 mb-8">
+                    <label for="name" class="font-bold text-primary">Nama</label>
+                    <input type="text" id="name" placeholder="Masukan Nama anda" class="focus:placeholder:text-white block w-full px-4 py-2 rounded-lg bg-slate-200 focus:outline-none focus:ring-1 focus:ring-primary focus:bg-primary">
+                </div>
+                <!-- class name End -->
+
+                <!-- class Email Start -->
+                <div class="max-w-xl mx-auto px-4 mb-8">
+                    <label for="name" class="font-bold text-primary mr-2 peer after:content-['*'] after:ml-1 after:text-red-600">Email</label>
+                    <input type="email" id="email" placeholder="Masukan Email Anda" class="focus:placeholder:text-white block w-full px-4 py-2 rounded-lg bg-slate-200 focus:outline-none focus:ring-1 focus:ring-primary focus:bg-primary peer invalid:text-red-500 invalid:focus:ring-red-600 invalid:focus:bg-red-500 invalid:focus:text-white ">
+                    <p class="hidden peer-invalid:block invisible peer-invalid:visible peer-invalid:text-red-600">Email yang anda masukan salah!!</p>
+                </div>
+                <!-- class Email End -->
+
+                <!-- class Message Start -->
+                <div class="max-w-xl mx-auto px-4 mb-8">
+                    <label for="name" class="font-bold text-primary">Pesan</label>
+                    <textarea type="text" id="name" placeholder="Pesan" class="focus:placeholder:text-white block w-full px-4 py-2 rounded-lg bg-slate-200 focus:outline-none focus:ring-1 focus:ring-primary focus:bg-primary"></textarea>
+                </div>
+                <!-- class Message End -->
+
+                <!-- class button send Start -->
+                <div class="max-w-xl mx-auto px-4 md:max-w-[150px]">
+                    <button class="w-full font-bold bg-primary px-4 py-2 rounded-full text-white hover:bg-teal-600 active:bg-teal-700">Kirim</button>
+                </div>
+                <!-- class button send End -->
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-dark pt-24 pb-12">
+        <div class="container">
+            <div class="w-full mx-auto flex flex-wrap">
+                <div class="w-full px-4 mb-12 text-white xl:flex xl:justify-center md:w-1/3">
+                    <div>
+                        <h2 class="font-bold text-2xl mb-5">MUHAMAD AGUS</h2>
+                        <h3 class="text-slate-300 font-bold text-xl">Hubungi Kami</h3>
+                        <p>muhammadagus@gmail.com</p>
+                        <p>Kp Cibeber Hilir 001/008 Cicurug Sukabumi</p>
+                        <p>kabupaten Sukabumi</p>
+                    </div>
+                </div>
+
+                <div class="w-full px-4 mb-12 md:w-1/3 text-white xl:flex xl:justify-center">
+                    <div>
+                        <h3 class="font-semibold text-xl mb-5">Kategori Tulisan</h3>
+                        <ul class="text-slate-300">
+                            <li><a href="#" class="inline-block text-base mb-3 hover:text-primary">Belajar Programming</a></li>
+                            <li><a href="#" class="inline-block text-base mb-3 hover:text-primary">Roadmap Belajar Web</a></li>
+                            <li><a href="#" class="inline-block text-base mb-3 hover:text-primary">Karir di bidang IT</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="w-full px-4 mb-12 md:w-1/3 text-white xl:flex xl:justify-centers">
+                    <div>
+                        <h3 class="font-semibold text-xl mb-5">Tautan</h3>
+                        <ul class="text-slate-300">
+                            <li><a href="#home" class="inline-block text-base mb-3 hover:text-primary">Beranda</a></li>
+                            <li><a href="#about" class="inline-block text-base mb-3 hover:text-primary">Tentang Saya</a></li>
+                            <li><a href="#Portfolio" class="inline-block text-base mb-3 hover:text-primary">Portfolio</a></li>
+                            <li><a href="#clients" class="inline-block text-base mb-3 hover:text-primary">Clients</a></li>
+                            <li><a href="#blog" class="inline-block text-base mb-3 hover:text-primary">Blog</a></li>
+                            <li><a href="#contact" class="inline-block text-base mb-3 hover:text-primary">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full border-t-2 border-slate-500">
+                <div class="sosial mt-7 flex justify-center mb-5">
+                    <ul class="flex gap-3 text-white">
+                        <!-- Start whatsapp -->
+                        <li class="w-9 h-9 border-2 border-slate-400 rounded-full p-1 flex justify-center self-center hover:border-primary hover:bg-primary hover:text-white"><a href="https://wa.me/+6281220107708" target="_blank" class="w-9 h-9 flex justify-center items-center self-center"><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a></li>
+                        <!-- End Whatsapp -->
+                        <!-- Start Facebook -->
+                        <li class="w-9 h-9 border-2 border-slate-400 rounded-full p-1 flex justify-center self-center hover:border-primary hover:bg-primary hover:text-white">
+                            <a href="https://web.facebook.com/profile.php?id=100046189365713" target="_blank" class="w-9 h-9 flex justify-center items-center self-center">
+                                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            </a>
+                        </li>
+                        <!-- End Facebook -->
+                        <!-- Start Instagram -->
+                        <li class="w-9 h-9 border-2 border-slate-400 rounded-full p-1 flex justify-center self-center hover:border-primary hover:bg-primary hover:text-white">
+                            <a href="https://www.instagram.com/__muhammadagus/?hl=id" target="_blank" class="w-9 h-9 flex justify-center items-center self-center">
+                                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                            </a>
+                        </li>
+                        <!-- End Instagram -->
+                        <!-- Start Gmail -->
+                        <li class="w-9 h-9 border-2 border-slate-400 rounded-full p-1 flex justify-center self-center hover:border-primary hover:bg-primary hover:text-white">
+                            <a href="mailto:muhammadagus070800@gmail.com" target="_blank" class="w-9 h-9 flex justify-center items-center self-center">
+                                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Gmail</title><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="text-white text-center text-xs">Dibuat dengan ❤️ oleh <a href="https://www.instagram.com/__muhammadagus/?hl=id" class="text-primary">MUHAMMAD AGUS</a>, menggunakan <a href="https://tailwindcss.com" target="_blank"><span class="text-sky-500">Tailwind CSS</span></a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <div class="mb-96"></div>
+
+    <script src="public/js/script.js"></script>
+</body>
+</html>
